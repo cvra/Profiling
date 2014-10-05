@@ -1,0 +1,10 @@
+depends:
+    - statistics
+    - platform-abstraction
+    - test-runner
+
+source:
+    - profiling.c
+
+tests:
+    - tests/profiling_test.cpp
